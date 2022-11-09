@@ -14,7 +14,11 @@ python3 -m pip install -r requirements.txt
 With versions of Ubuntu that use Wayland, you'll need to disable this following [this guide](https://linuxhint.com/enable-disable-wayland-ubuntu/).
 
 ## Usage
+This is meant to work with an android phone. Please turn on developer mode and enable USB Debugging prior to start.
+
 Open a terminal with your phone connected to your device and run `scrcpy`. This should give you a copy of your screen you can interact with on your computer. Navigate to the map view to start
+
+The first time you use `scrcpy`, you may have issues getting your phone screen to display. Try using `adb kill-server` to reset the connection, approve the connection via the pop-up on your phone, and run the `scrcpy` command again.
 
 Open a new terminal terminal, navigate to the project, activate the venv environment and run:
 ```

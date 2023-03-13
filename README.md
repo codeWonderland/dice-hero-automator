@@ -5,7 +5,8 @@ A python script to automate grinding resources and basic gameplay in RPG Dice: H
 ### Ubuntu Linux
 Open the terminal, navigate to the downloaded project folder, and install the requirements as follows
 ```bash
-sudo apt-get install -Y python3 scrcpy android-platform-tools xte xdotools xwininfo
+sudo apt install xdotools scrcpy
+sudo apt-get install -Y scrot xautomation
 python3 -m venv ./venv
 source venv/bin/activate
 python3 -m pip install -r requirements.txt
